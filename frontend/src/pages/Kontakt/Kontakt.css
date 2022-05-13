@@ -1,0 +1,80 @@
+.kontakt h2{
+  color: #070755;
+  margin-top: 25px;
+  align-content: center;
+  justify-content: center;
+  text-decoration:underline;
+ } 
+
+ .contact .background{
+   opacity: 75%;
+ }
+
+ .kontaktform .info {
+  width: 100%;
+  background:#070755;
+  padding: 50px;
+  
+}
+
+.kontaktform .info i {
+  font-size: 20px;
+  color: #070755;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.kontaktform .info h6 {
+  padding: 0 0 0 60px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.kontaktform .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+.kontaktform .info .email, .contact .info .phone {
+  margin-top: 40px;
+}
+
+.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+  background: #52b652;
+  color: #fff;
+}
+
+
+.picture form {
+  width: 900px;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 400px;
+  padding-right: 200px;
+}
+
+.map-contact img {
+  width: 700px;
+  height: 400px;
+  margin-bottom: 30px;
+
+}

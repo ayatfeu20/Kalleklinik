@@ -1,0 +1,248 @@
+#topbar {
+  background: #fff;
+  height: 40px;
+  font-size: 14px;
+  transition: all 0.5s;
+  z-index: 996;
+  box-shadow: 10px 0px 10px rgba(30, 136, 230, 0.1);
+  
+}
+
+#topbar.topbar-scrolled {
+  top: -40px;
+}
+
+#topbar .contact-info  {
+  line-height: 1;
+  color: #070755;
+  transition: 0.3s;
+}
+#topbar .contact-info a {
+  line-height: 1;
+  color: #070755;
+  transition: 0.3s;
+}
+
+
+#topbar .contact-info a:hover {
+  color: #52b652;
+}
+#topbar .contact-info i {
+  color: #52b652;
+  padding-right: 4px;
+  margin-left: 15px;
+  line-height: 0;
+}
+#topbar .contact-info i:first-child {
+  margin-left: 0;
+}
+
+/*#topbar .social-links a {
+  color: #070755;
+  padding-left: 15px;
+  display: inline-block;
+  line-height: 1px;
+  transition: 0.3s;
+}*/
+
+#topbar .social-links a:hover {
+  color: #1977cc;
+}
+
+#topbar .social-links a:first-child {
+  border-left: 0;
+}
+
+
+a.social {
+  margin: 0 0.5rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
+}
+
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    /*background:#e6fce6;*/
+    padding-left: 100px;
+    color: #070755;
+           
+    margin: 35px 0px 0px 0px;
+    
+    transition: all 0.5s;
+  }
+  
+  .navbar-brand{
+    display:flex;
+    align-items: center;
+    
+    
+    
+  }
+
+  .navbar-brand img{
+    
+    height: 140px;
+    width: 180px;
+    margin-top: -20px;
+    transition: transform 250ms;
+    
+    
+      }
+  
+  .navbar ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 200px;
+    
+  }
+  
+  .navbar ul li {
+    margin: 0 1rem;
+  }
+  
+  .navbar ul li a {
+    text-decoration:none;
+    display:flex;
+    color: #070755;
+    position: relative;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 400px;
+    white-space: nowrap;
+    transition: 0.3s;
+    padding: 5px 10px;
+
+  }
+  
+  .navbar ul li a:hover {
+    color: #52b652;
+    font-weight:bolder;
+  }
+
+  .appointment-btn {
+    margin-left: 30px;
+    background: #070755;
+    color: #fff;
+    border-radius: 50px;
+    padding: 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+    
+  }
+  
+  .appointment-btn:hover {
+    background: #52b652;
+    color: #070755;
+  }
+  
+  .navbar ul li a::after {
+    content: "";
+    position: absolute;
+    height: 0.2rem;
+    width: 0;
+    left: 0;
+    top: 2rem;
+    background: #52b652;
+    transition: 0.3s linear;
+    
+  }
+  
+  .navbar ul li a:hover::after {
+    width: 100%;
+  }
+  
+  .navbar ul li a.clicked::after {
+    width: 100%;
+  }
+  
+  
+  
+  .toggle-button {
+    display: none;
+    font-size: 1.8rem;
+  }
+  
+  @media screen and (max-width: 600px) {
+    nav {
+      padding: 0 1rem;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .toggle-button {
+      display:block;
+      padding-bottom: 20px;
+    }
+  
+  
+  ul {
+  flex-direction: column;
+  position: fixed;
+  top: 26vh;
+  background: #070755;
+  
+  width:100%;
+  height: 100%;
+  left: -1000px;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 200px;
+  z-index: 2;
+    
+  }
+  
+  ul li  {
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    
+  }
+  
+  .navbar ul li a {
+    color: white;
+    
+  }
+  
+   .navbar ul li a:hover {
+     color: white;
+    font-weight: bold;
+  }
+  
+  ul.active {
+    left: 0;
+  }
+  
+  
+  
+  
+  }

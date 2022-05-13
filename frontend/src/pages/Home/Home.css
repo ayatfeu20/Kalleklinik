@@ -1,0 +1,259 @@
+
+.welcome{
+  background-color: #070755;
+  
+}
+
+.carousel{
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    padding-right: 0px;
+    padding-top: 0px;
+    
+       
+        
+}
+
+.carousel img {
+    width: 200px;
+    height: 450px;
+    border-radius: 0px;
+    
+    
+    
+    
+    
+}
+
+
+.welcome h1 {
+    color: #fff;
+    padding: 50px 50px 20px 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    
+}
+
+.welcome h4{
+  color: #fff;
+  padding: 0px 0px 30px 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about-btn {
+    margin-left: 45px;
+    border-color: #fff;
+    border-width: 0.2rem;
+    color: #fff;
+    border-radius: 50px;
+    padding: 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .about-btn:hover {
+    background: #52b652;
+    color:#070755;
+  }
+
+@media screen and (max-width: 600px) {
+     .carousel{
+         display:inline;
+      
+    }
+  }
+  @media screen and (max-width: 500px) {
+    
+    }
+
+    .featured-services{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .featured-services .icon-box {
+        padding: 30px;
+        position:relative;
+        overflow: hidden;
+        background: #fff;
+        box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+        transition: all 0.3s ease-in-out;
+        border-radius: 8px;
+        z-index: 1;
+      }
+
+      .featured-services .icon-box:hover{
+        box-shadow: 15px 15px 30px 15px  rgba(68, 88, 144, 0.12);
+        transform: scale(0.9, 0.9);
+
+      }
+      
+      .featured-services .icon-box::before {
+        content: '';
+        position: absolute;
+        background: #d9f1f2;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        top: 100%;
+        transition: all 0.3s;
+        z-index: -1;
+      }
+      
+     /* .featured-services .icon-box:hover::before {
+        background: #52b652;
+        top: 0;
+        border-radius: 0px;
+      }*/
+      
+      .featured-services img {
+        width: 35vh;
+        height: 32vh;
+      }
+      
+      .featured-services .icon  {
+        font-size: 30px;
+        line-height: 1;
+        color: #070755;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .featured-services .title {
+        font-weight: 700;
+        margin-bottom: 15px;
+        font-size: 18px;
+      }
+      
+      .featured-services .title a  {
+        color: #070755;
+      }
+      
+      .featured-services .description {
+        font-size: 15px;
+        line-height: 28px;
+        margin-bottom: 0;
+        color: #070755;
+        text-decoration: underline;
+      }
+      
+     /* .featured-services .icon-box:hover .title a, .featured-services .icon-box:hover .description {
+        color: #fff;
+      }
+      
+      .featured-services .icon-box:hover .icon  {
+        color: #fff;
+      }*/
+
+      .hitta .background{
+       width:100%; 
+       height: 50vh;
+       opacity: 60%;
+       
+       
+       
+      }
+
+      .contact-btn {
+        margin: 100px 0px 0px 500px;
+        background: #070755;
+        color: #fff;
+        border-radius: 5px;
+        padding: 4px 20px 0px 14px;
+        white-space: nowrap;
+        transition: 0.3s;
+        font-size: 20px;
+        font-weight: bold;
+        position:absolute;
+        display:flex;
+        justify-content: center;
+        align-items: center;  
+           
+      }
+
+      .contact-btn:hover {
+        background: #52b652;
+        color: #fff;
+      }
+      
+
+      .betalning{
+        height: 40vh;
+      }
+
+       .pris h5{
+        color: #070755;
+        padding: 50px 0px 0px 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        padding-bottom: 40px;
+       }
+
+       .pris a{
+        color: #070755;
+        padding: 50px 0px 0px 50px;
+        font-weight: bold;
+        padding-bottom: 40px;
+        font-size:x-large;
+        text-decoration:underline;
+       }
+
+       .betalning img{
+         width: 250px;
+         height: 100px;
+         padding: 10px 10px 0px 30px;
+              
+         
+       }
+
+       .ont{
+        padding: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ont h4{
+      color: #070755;
+      align-content: center;
+      justify-content: center;
+      padding-bottom: 50px;
+      
+    }
+    
+    .ont p{
+        color: #070755;
+    }
+
+  .priser{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: #f8f9fd;
+  border-radius: 75%;
+    }
+
+    table {
+      border: 5px solid #52b652;
+      width: 800px;
+      height: 200px;
+    }
+      
+    th {
+      border-bottom: 1px solid #070755;
+      color: #070755;
+      text-align: center;
+    }
+      
+    td {
+      text-align: center;
+      color: #070755;
+      border-bottom: #52b652;
+      
+    }

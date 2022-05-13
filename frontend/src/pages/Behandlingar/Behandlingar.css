@@ -1,0 +1,74 @@
+.Behandlingar h2{
+    color: #070755;
+    margin-top: 25px;
+    align-content: center;
+    justify-content: center;
+    text-decoration:underline;
+}
+
+.Behandlingar p{
+    color: #070755;
+}
+
+.behandlingar .background{
+    opacity: 75%;
+}
+
+
+
+
+.List{
+    
+    width: 320px;
+    height: 400px;
+    
+    padding: 2rem 0rem 0rem 0rem;
+   
+    margin:0;
+    
+}
+
+.List li{
+
+margin: 1rem 0 0 0;
+padding: 0;
+
+}
+
+.List ul li button{
+    color:#070755;
+    font-size:larger;
+    justify-content:space-between;
+    
+    
+}
+
+.List ul li .down{
+    position: relative;
+    color: #070755;
+}
+
+.List ul li .down:hover{
+    transform: rotate(90deg);
+    color: #52b652;
+     
+}
+
+.List p{
+    color: #070755;
+    display:flex;
+    margin: auto;
+       
+}
+
+.gall img{
+    width: 385px;
+    height: 350px;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    justify-content: space-between;
+    border-style:groove;
+    border-width: 0.2rem;
+    border-color: #070755;
+    z-index: -1;
+        
+}

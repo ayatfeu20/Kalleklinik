@@ -1,0 +1,86 @@
+.form {
+    width: 500px;
+    height: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+
+form {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 25px;
+  }
+  .formWord button {
+    width: 140px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #070755;
+    -webkit-transition: 0.5s linear;
+    -o-transition: 0.5s linear;
+    transition: 0.5s linear;
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  .formWord button:hover {
+    background-color:#52b652;
+    /*border: 2px solid #070755;*/
+    -webkit-transition: 0.5s linear;
+    -o-transition: 0.5s linear;
+    transition: 0.5s linear;
+    color: #070755;
+  }
+  .formWord {
+    width: 75%;
+    padding: 4%;
+    border-radius: 10%;
+  }
+  .formWord h3 {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 15px;
+    padding-top: 0;
+    color: #070755;
+  }
+  .formWord input {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 5%;
+    border: 0;
+    margin-top: 2%;
+    padding-left: 3%;
+    background: #ffffff;
+    -webkit-box-shadow: 0px 0px 48px 0px rgb(215, 219, 252);
+    box-shadow: 0px 0px 48px 0px rgb(215, 219, 252);
+    border-radius: 25px;
+    
+  }
+  .formWord textarea {
+    width: 300px;
+    margin-bottom: 10%;
+    border: 0;
+    margin-top: 2%;
+    height: 80px;
+    color: black;
+    -webkit-box-shadow: 0px 0px 48px 0px rgb(215, 219, 252);
+    box-shadow: 0px 0px 48px 0px rgb(215, 219, 252);
+    padding-left: 3%;
+    border-radius: 25px;
+  }

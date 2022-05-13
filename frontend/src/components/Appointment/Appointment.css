@@ -1,0 +1,128 @@
+
+.Appointment h1{
+    color: #070755;
+    margin-right: auto;
+}
+
+.Appointment h3{
+    color: #070755;
+    
+    padding-top: 10px;
+}
+
+.Appointment .card-display{
+    color: #070755;
+    height: fit-content;
+    width: fit-content;
+   float: right;
+   margin-right: 25px;
+   margin-bottom: 30px;
+}
+
+.form {
+    width: 500px;
+    height: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+   
+  }
+
+  .formtid{
+     
+      display:block;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      width: 42%;
+      
+      padding: 5%;
+      border-radius: 10%;
+      background-color: #d6fcd6;
+      margin-bottom: 15px;
+      background-image: url("pngwing5.com.png");
+      background-size: cover;
+      background-position: center;
+  }
+
+
+form {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 25px;
+  }
+  .formtid button {
+    width: 140px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #070755;
+    -webkit-transition: 0.5s linear;
+    -o-transition: 0.5s linear;
+    transition: 0.5s linear;
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  .formtid button:hover {
+    background-color:#52b652;
+    /*border: 2px solid #070755;*/
+    -webkit-transition: 0.5s linear;
+    -o-transition: 0.5s linear;
+    transition: 0.5s linear;
+    color: #070755;
+  }
+ 
+
+  .formtid input {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 5%;
+    border: 0;
+    margin-top: 2%;
+    padding-left: 3%;
+    background: #ffffff;
+    -webkit-box-shadow: 0px 0px 48px 0px rgb(215, 219, 252);
+    box-shadow: 0px 0px 48px 0px rgb(215, 219, 252);
+    border-radius: 25px;
+    
+  }
+
+  .confirmation{
+    background-color: #f8f9fd;
+    border-radius: 75%;
+  }
+
+  .confirmation h1{
+    color: #070755;
+    padding: 30px;
+    text-align: center;
+    font-weight: 500;
+    font-size:60px;
+  }
+  .confirmation .check{
+    color: #52b652;
+    margin: auto;
+    vertical-align: middle;
+       
+  }
+
+  .confirmation p{
+    color: #070755;
+    text-align: center;
+    padding: 15px;
+  }
+ 
