@@ -20,19 +20,15 @@ const AppointmentSchema = new mongoose.Schema({
     treatment: {
         type: String,
         required: true,
-      
-       
     },
     date: {
         type: Date,
         required: true,
-        
     },
-   time: {
+    time: {
         type: String,
         required: true,
       },
   });
-  
   const AppointmentModel = mongoose.model("appointments", AppointmentSchema);
   module.exports = AppointmentModel

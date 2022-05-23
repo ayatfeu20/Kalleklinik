@@ -21,60 +21,33 @@ import Hand from "./pages/Home/Hand";
 import Tillbaka from "./pages/Home/Tillbaka";
 import Priser from "./pages/Home/Priser"
 
-
-
-
-
 const App = () => {
-
   return (
-
-   
-    <div className="App"  >
-    
-    
-      
-     <Router>
+  <div className="App"  >
+   <Router>
      <Navbar />
-     
-            
-              
+      
      <Routes>
-     
-     <Route  exact path="/" element={<Home/>} /> 
-     <Route   path="/About"element={<About/>} />
-     <Route  exact path="/Behandlingar/" element={<Behandlingar/>} />
-     <Route   path="/Kontakt" element={<Kontakt/>} />
+     <Route   exact path="/" element={<Home/>} /> 
+     <Route   exact path="/About"element={<About/>} />
+     <Route   exact path="/Behandlingar/" element={<Behandlingar/>} />
+     <Route   exact path="/Kontakt" element={<Kontakt/>} />
      <Route   exact path="/Home/:id" element={<Ont/>} />
      <Route   exact path="/Home/Tid" element={<Tid/>} />
      <Route   exact path="/Home/Hand" element={<Hand/>} />
-     <Route   exact path="/Home/Priser" element={<Priser/>} />
      <Route   exact path="/Home/Tillbaka" element={<Tillbaka/>} />
+     <Route   exact path="/Home/Priser" element={<Priser/>} />
      <Route   exact path="/Appointment" element={<Appointment/>} />
      <Route   exact path="/Appointment/Display" element={<Display/>} />
      <Route   exact path="/Appointment/Login" element={<Login/>} />
      <Route   exact path="/Appointment/Confirmation" element={<Confirmation/>} />
-
-     
      </Routes>
      </Router>
      
      <Footer/>
      </div>
-
-     
-     
-
-     
-
-     
-   
-     
-    
     
   );
 }
-
-
 
 export default App;

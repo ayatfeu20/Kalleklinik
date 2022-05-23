@@ -6,9 +6,7 @@
     width: 100%;
     text-align: left;
     background-color: #070755;
-    
-      
-
+ 
 }
 .main-footer a{
     color: #ffff;
@@ -28,15 +26,6 @@
     margin-top: 0px;
 }
 
-.back-to-top{
-    justify-content: right;
-    justify-items: right;
-    display:flex;
-    
-  
-    
-    }
-
 .arrow {
     font-weight:bolder;
     font-size:1.5rem;
@@ -52,5 +41,10 @@
     color: #fff;
   }
   
- 
+  @media screen and (max-width: 500px) {
+    .main-footer {
+       display: none;
+     }
+}
+  
   

@@ -3,6 +3,7 @@ import ContactForm from './ContactForm'
 import "./Kontakt.css";
 import background from './/contact-us-gff87e215a_1920.jpg'
 import { FaPhone,FaMapMarkerAlt,FaEnvelope} from 'react-icons/fa';
+
 import figure from 'react-bootstrap/figure';
 
 function Kontakt() {
@@ -25,10 +26,9 @@ function Kontakt() {
        <div className='col-lg-6  d-flex flex-column align-items-stretch
    justify-content-center py-5   '> 
        <figure>
-          <figure.Image src="./images/11.jpg" className='img-fluid rounded'  alt=""  width={500}
-    height={400} /> 
+          <figure.Image src="./images/11.jpg" className='img-fluid rounded'  alt=""  width={500}  height={400} /> 
           <figcaption className=' font-weight-bold bg-light d-flex text-right'>Khaled Daryan</figcaption>
-          </figure>
+       </figure>
           </div>
           <div class="col mx-8 py-5 ">
             <div class="info rounded">

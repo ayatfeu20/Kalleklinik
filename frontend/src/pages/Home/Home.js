@@ -19,33 +19,14 @@ export default function Home() {
              
             <Carousel infiniteLoop useKeyboardArrows autoPlay showStatus={false} showThumbs={false}  dynamicHeight={true} >
             
-            <div>
-                    <img src="./images/5-2.png" className="pt-100" alt="" />
-                    
-                </div>
-                
-                <div>
-                    <img src="./images/joyce-mccown-IG96K_HiDk0-unsplash.jpg" alt="" />
-                    
-                </div>
-                <div>
-                    <img src="./images/9.jpg" alt="" />
-                    
-                </div>
-                <div>
-                    <img src="./images/pexels-anete-lusina-6353850.jpg" alt="" />
-                </div>
-                <div>
-                    <img src="./images/6.jpg" alt="" />
-                    
-                </div>
-                <div>
-                    <img src="./images/dumbbells-g4fc49991e_1920.jpg" alt="" />
-                </div>
-                <div>
-                    <img src="./images/IMG-20220410-WA0004.png" alt="" />
-                </div>
-                </Carousel>
+                <div> <img src="./images/5-2.png" className="pt-100" alt="" /></div>
+                <div> <img src="./images/joyce-mccown-IG96K_HiDk0-unsplash.jpg" alt="" /></div>
+                <div> <img src="./images/9.jpg" alt="" /></div>
+                <div> <img src="./images/pexels-anete-lusina-6353850.jpg" alt="" /> </div>
+                <div> <img src="./images/6.jpg" alt="" /></div>
+                <div> <img src="./images/dumbbells-g4fc49991e_1920.jpg" alt="" /> </div>
+                <div> <img src="./images/IMG-20220410-WA0004.png" alt="" /></div>
+           </Carousel>
               
         </div>
         
@@ -88,7 +69,7 @@ export default function Home() {
 </div>
 
 <div className="hitta d-flex ">
- <div className="background" style={{ backgroundImage:`url(${background})`,backgroundRepeat:"no-repeat",backgroundSize:"cover",backgroundPosition: 'center', }}></div>
+ <div className="background" style={{ backgroundImage:`url(${background})`,backgroundRepeat:"no-repeat",backgroundSize:"cover",backgroundPosition: 'center',height: '50vh',width:'100%' }}></div>
  <a href="/Kontakt" class="contact-btn scrollto justify-content-between"><FaLocationArrow className="d-flex justify-content-center px-2" size="50"/><span class=" d-md-inline justify-content-between h3">Hitta oss</span> </a>
  </div>
  

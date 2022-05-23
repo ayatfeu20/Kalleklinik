@@ -2,12 +2,10 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const AppointmentModel = require('./models/appointment')
-
 const cors = require("cors");
 
 app.use(express.json());
 app.use(cors());
-
 
 mongoose.connect('mongodb+srv://dbKalle:Ayatzaki82@cluster0.cz6gr.mongodb.net/db?retryWrites=true&w=majority');
 
@@ -29,10 +27,6 @@ app.get("/getAppointments", (req, res) => {
     res.json(appointment);
   });
 
-
-
-
-
 app.listen(5000, () => {
-  console.log("Yaaaaaaaa SERVER RUNS PERFECTLY!");
+  console.log("Yaaaaahoooo SERVER RUNS PERFECTLY!");
 });

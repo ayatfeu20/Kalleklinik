@@ -53,7 +53,6 @@ const createAppointment = () => {
    
   };
  
-
 return (
   <div className="Appointment">
     <div className='card-display '>
@@ -64,17 +63,13 @@ return (
     <h1 className='text-center mt-4'>Boka en tid</h1>
     <h3 className='text-center mb-4'>Skriva in dina uppgifter</h3>
     </div>
-
-    
-    
-      
-        <div className="formtid">
+         
+    <div className="formtid">
       <input
         type="text"
         placeholder="Förenamn..."
         onChange={(event) => {
           setFirstname(event.target.value);
-          
         }}
       />
       <input
@@ -82,7 +77,6 @@ return (
         placeholder="Efternamn"
         onChange={(event) => {
           setLastname(event.target.value);
-
         }}
       />
       <input
@@ -125,12 +119,10 @@ return (
       
       <button type="submit" onClick={createAppointment } > Skriv in</button>
     
-     
-      </div>
-    
     </div>
+    
+ </div>
   
 );
 }
-
 export default Appointment;

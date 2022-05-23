@@ -8,11 +8,9 @@ const Result = () => {
     );
 };
 
-
 export default function ContactForm() {
     
     const [result, showResult] = useState(false)
-
     const sendEmail = (e) => {
       e.preventDefault();
   
