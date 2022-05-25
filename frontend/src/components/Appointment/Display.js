@@ -5,45 +5,15 @@ import Card from 'react-bootstrap/Card';
 
 function Display() {
     const [listOfAppointments, setListOfAppointments] = useState([]);
-    const [firstname] = useState("");
-    const [lastname] = useState("");
-    const [phone] = useState(0);
-    const [email] = useState("");
-    const [treatment] = useState("");
-    const [date] = useState("");
-    const [time] = useState("");
+   
 
   useEffect(() => {
-    Axios.get("http://localhost:5000/getAppointments").then((response) => {
+    Axios.get("https://kalleklinik-server.herokuapp.com/getAppointments").then((response) => {
       setListOfAppointments(response.data);
     });
   }, []);
 
-  const createAppointment = () => {
-    Axios.post("http://localhost:5000/createAppointment", {
-        firstname,
-        lastname,
-        phone,
-        email,
-        treatment,
-        date,
-        time,
-    }).then((response) => {
-      setListOfAppointments([
-        ...listOfAppointments,
-        {
-            firstname,
-            lastname,
-            phone,
-            email,
-            treatment,
-            date,
-            time,
-        },
-      ]);
-    });
-  };
-
+  
   return (
     <div className="Display">
       <div className="appointmentsDisplay">
@@ -68,22 +38,14 @@ function Display() {
           </Card.Text>
         </Card.Body>
       </Card>
+     </div>
     </div>
-  
-</div>
-              
-              
-            </div>
+   </div>
           );
         })}
-      </div>
+  </div>
 
-      
-        
-        
-        
- 
-    </div>
+  </div>
   );
 }
 

@@ -19,13 +19,13 @@ const navigate = useNavigate();
 
 
 useEffect(() => {
-  Axios.get("http://localhost:5000/getAppointments").then((response) => {
+  Axios.get("https://kalleklinik-server.herokuapp.com/getAppointments").then((response) => {
     setListOfAppointments(response.data);
   });
 }, []);
 
 const createAppointment = () => {
-  Axios.post("http://localhost:5000/createAppointment", {
+  Axios.post("https://kalleklinik-server.herokuapp.com/createAppointment", {
     firstname,
     lastname,
     phone,
